@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandrio Landing Page</title>
+    
+    <!-- agar file index.html dapat terhubung ke resource external (desain.css) -->
+    <link rel="stylesheet" href="desain.css">
+    
+    <!-- untuk font tulisan website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- untuk ikon ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <!-- Bar Navigasi -->
+    <nav>
+        <!-- Tulisan nama di nama atas, dan kalau dipencet akan balik ke halaman semula -->
+        <div class="nama">
+            <a href="/">Alexandrio</a>
+        </div>
+
+        <!-- Kontak-kontak -->
+        <div class="kontak">
+            <!-- Kontak Github -->
+            <a href="https://github.com/AlexandrioVega" target="_blank">
+                <i class="fa-brands fa-github"></i><img src=""> 
+                <span>Github</span>
+            </a>
+
+             <!-- kontak Linkedin -->
+            <a href="https://id.linkedin.com/in/alexandrio-vega-bonito-ba5a05345" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+              
+            <!-- Kontak Media Sosial instagram -->
+            <a href="https://www.instagram.com/alvestmon?igsh=ajJyMXlwNTZjaWk5" target="_blank">
+                <i class="fa-brands fa-square-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:alexandrio.vega.tif24@polban.ac.id">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+
+
+    <main>
+        <!-- Section 1 data diri -->
+        <section class="data-diri">
+            <div class="deksripsi">
+                <h2>Hi I'm Alexandrio</h2>
+                <!-- Deskripsi singkat -->
+                <p>Perkenalkan, nama saya Alexandrio Vega Bonito, biasa dipanggil Alex. Saat ini saya menempuh pendidikan di Politeknik Negeri Bandung (Polban), jurusan D3 Teknik Informatika, dan sedang berada di semester 3. Keinginan terbesar saya adalah dapat menyelesaikan studi dengan predikat cum laude serta melanjutkan pendidikan hingga jenjang sarjana.</p>
+                <div class="link">
+                    <!-- Link untuk mengarah ke bagian skill -->
+                    <a href="#skill">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skill</span>
+                    </a>
+
+                    <!-- Link untuk mengarah ke riwayat pedidikan -->
+                    <a href="#riwayat-pendidikan">
+                        <i class="fa-solid fa-school"></i>
+                        <span>Educations</span>
+                    </a>
+
+                    <!-- Link untuk mengarah ke bagian portfolio -->
+                    <a href="#portofolio">    
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>portfolio</span>
+                    </a>
+                </div>
+
+                
+
+            </div>
+            <div class="foto">
+                <img src="Gambar/foto.webp" alt="Alexandrio Vega Bonito"/>
+            </div>
+        </section>
+        
+        <!-- Section 2 skill-->
+        <section id="skill" class="skills">
+            <h2>Skills</h2>
+            <div class="text">Saya menguasai pemrograman C dan C++, serta pengembangan web menggunakan HTML dan CSS. Dengan kemampuan ini, saya mampu membangun website interaktif yang memadukan desain menarik dan pengolahan data yang efisien, menghadirkan pengalaman pengguna yang optimal.</div>
+            <div class="sel">
+                <div class="subsel">
+                    <img src="Gambar/html-logo.webp" alt="HTML">
+                    <span>HTML</span>
+                </div>
+                <div class="subsel">
+                    <img src="Gambar/css-logo.webp" alt="CSS">
+                    <span>CSS</span>
+                </div>
+                <div class="subsel">
+                    <i class="fa-solid fa-c"></i>
+                    <span>C/C++</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section 3 riwayat pendidikan-->
+        <section id="riwayat-pendidikan" class="pendidikan">
+           <h2>Riwayat pendidikan</h2>
+           <div class="text">perjalanan pendidikan saya dimulai di SMPN 10 Cimahi, tempat saya membangun dasar ilmu pengetahuan dan keterampilan belajar. Setelah itu, saya melanjutkan ke SMAN 1 Ngamprah, di mana saya semakin mengasah kemampuan akademik sekaligus memperluas wawasan dan pengalaman organisasi. Saat ini, saya menempuh pendidikan tinggi di Politeknik Negeri Bandung (Polban), jurusan D3 Teknik Informatika, untuk mendalami dunia teknologi dan pemrograman sebagai bekal dalam membangun karier di bidang IT.</div>
+           <div class="waktu">
+               <div class="tingkat">
+                    <h3>SMPN 10 CIMAHI</h3>
+                    <span>2018 - 2021</span>
+                    <p>Membangun dasar ilmu pengetahuan dan keterampilan belajar.</p>
+               </div>
+
+               <div class="tingkat">
+                    <h3>SMAN 1 NGAMPRAH</h3>
+                    <span>2021 - 2024</span>
+                    <p>Mengasah kemampuan akademik dan memperluas pengalaman organisasi.</p>
+               </div>
+
+               <div class="tingkat">
+                    <h3>POLITEKNIK NEGERI BANDUNG</h3>
+                    <span>2024 - 2027</span>
+                    <p>Menempuh studi D3 Teknik Informatika untuk mendalami dunia teknologi dan pemrograman.</p>
+               </div>
+           </div>
+        </section>
+    
+        <!-- Section 4 portofolio-->
+        <section id="portofolio" class="portofolioalex">
+            <h2>Portofolio</h2>
+            <div class="porto1">
+                <div class="detail">
+                    <img src="Gambar/port2.webp" alt="id card">
+                </div>
+                <div class="teks">
+                    Gambar id card yang berisi identitas nama dan kelompok, yang digunakand dalam proyek 1.
+                </div>
+               
+            </div>
+            <div class="porto2">
+                <div class="teks">Desain poster kampanye bertema “Say No to Drugs” sebagai media edukasi masyarakat.</div>
+                <div class="detail">
+                    <img src="Gambar/port1.webp" alt="Poster">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

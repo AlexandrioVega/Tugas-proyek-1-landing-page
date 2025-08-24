@@ -1,0 +1,330 @@
+:root{
+    --text-colornav : #eeeff1;
+    --text-color : #1a1c20;
+    --link-color : #4a76ee;
+    --background-color : #eeeff1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+
+}
+
+a{
+    color : var(--link-color);
+    text-decoration: none;
+}
+
+/* Navigasi bar */
+nav{
+    background-color: #1a1c20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding : 0 50px;
+    height: 70px;
+}
+
+nav .nama a{
+    color : var(--text-colornav);
+    font-weight: 600;
+    font-size : 22px;
+}
+
+nav .kontak a{
+    color : var(--text-colornav);
+    margin : 0 10px;
+}
+
+nav .kontak a span{
+    margin-left: 5px;
+}
+
+
+/* Section 1 */
+.data-diri{
+    display: flex;
+    align-items :center;
+    justify-content: space-between;
+    padding : 0 50px;
+    margin : 50px 0;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.data-diri .deskripsi{
+    flex :5;
+}
+
+.data-diri .deskripsi{
+    flex :5;
+}
+
+.data-diri h2{
+    font-size :45px;
+}
+
+.data-diri .deskripsi .link{
+    margin-top: 25px;
+}
+
+.data-diri div .link a{
+    display: inline-block;
+    padding : 5px 10px;
+    border: 2px solid var(--link-color);
+    border-radius : 5px;
+    margin-right: 10px;
+    margin-top: 10px;    
+}
+
+.data-diri .foto img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    justify-content: right;
+    display: flex;
+
+}
+
+@media (max-width :900px){
+    .data-diri h2{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width :700px){
+    .data-diri {
+        flex-direction: column-reverse ;
+    }
+
+    .data-diri .foto img{
+        width: 2    00px;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* Section 2 skill/kemampuan */
+
+.skills{
+    padding : 0 50px;
+    margin-bottom: 100px;
+}
+
+.skills h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.skills .text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills .sel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills .sel .subsel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 300px;
+    padding : 10px 20px;
+    border : 1.5px solid ;
+    border-radius: 5px;
+    margin:10px;  
+    gap :10px;
+}
+.skills .sel .subsel span{
+    font-size: 18px;
+}
+
+.skills .sel .subsel img{
+    width: 30px;
+    height: 30px;
+}
+
+.skills .sel .subsel:last-child i{
+    font-size: 30px;
+}
+
+@media (max-width :500px){
+    .skills{
+        padding: 0 20px;
+    }
+    .skills .sel .subsel span{
+       font-size: 18px;
+    }
+    .skills .sel .subsel img{
+        width:50px;
+        height: 50px;
+    }
+    .skills .sel .subsel:last-child i{
+        font-size: 50px;
+    }
+}
+
+/* section 3 riwayat pendidikan */
+/* Section Riwayat Pendidikan */
+.pendidikan{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.pendidikan h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.waktu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tingkat{
+    border: 1.5px solid var(--link-color);
+    border-radius: 8px;
+    padding: 20px;
+    background: #fff;
+}
+
+.tingkat h3{
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.tingkat span{
+    font-size: 14px;
+    color: gray;
+}
+
+.tingkat p{
+    margin-top: 8px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.pendidikan .text{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Section 4 riwayat pendidikan*/
+
+.portofolioalex{
+    padding : 0 50px;
+    margin-bottom: 100px;
+}
+
+.portofolioalex h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.portofolioalex .porto1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.portofolioalex .porto2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.portofolioalex .porto1 .detail img{
+    text-align: center;
+    height: 350px ;
+    border-radius: 10px;
+}
+
+.portofolioalex .porto2 .detail img{
+    text-align: center;
+    height: 350px ;
+    border-radius: 10px;
+}
+
+.portofolioalex .porto1 .teks{
+    flex : 8;
+    text-align: center;
+}
+
+.portofolioalex .porto2 .teks{
+    flex : 8;
+    text-align: center;
+}
+
+
+
+
+
+/* responsive biar tetap bagus di hp */
+@media (max-width:600px){
+    .pendidikan{
+        padding: 0 20px;
+    }
+    .edu-card{
+        padding: 15px;
+    }
+}
+
+
+/* responsive buat bar navigasi */
+/* kalau ukurannya diperkecil maka logo kontak nya diperbesar dan tulisannya dihilangkan */
+@media (max-width :720px){
+    
+    /* kontrol ukuran jarak kanan kiri */
+    nav{
+        padding : 0 20px;
+    }
+
+    /* buat nama */
+    nav .nama a{
+        font-size: 17px;
+    }
+
+    /* buat kontak */
+    nav .kontak a span{
+        display: none;
+    }
+
+    nav .kontak a{
+        /* ukuran jarak antar logo kontak (kanan) */
+        margin-right: 0px;
+        font-size : 22px;
+    }
+
+    /* section 4 */
+
+    .portofolioalex .porto1{
+        flex-direction:column;
+    }
+
+    .portofolioalex .porto2{
+        flex-direction:column-reverse
+    }
+}
