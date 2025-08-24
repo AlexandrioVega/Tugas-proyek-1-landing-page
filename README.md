@@ -10,4 +10,4 @@ B. Teknologi yang digunakan
     
 C. Framework dan deploy
 
-Website saya murni hanya meggunakan HTML dan CSS tetapi juga menggunakan link yang bisa untuk mengimpor simbol-simbol dari website eksternal (fontawesome.com), sehingga saya tidak perlu terus untuk mendownload bahan-bahan untuk kebutuhan website saya. Dan untuk web saya belum sempat saya deploy karena untuk belajar bikin webnya sendiri membutuhkan waktu yang terbilang lama.
+Website saya murni hanya menggunakan HTML dan CSS tetapi juga menggunakan link yang bisa untuk mengimpor simbol-simbol dari website eksternal (fontawesome.com), sehingga saya tidak perlu terus untuk mendownload bahan-bahan untuk kebutuhan website saya. Dan untuk web saya belum sempat saya deploy karena untuk belajar bikin webnya sendiri membutuhkan waktu yang terbilang lama.
